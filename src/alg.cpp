@@ -8,7 +8,7 @@ uint64_t collatzMaxValue(uint64_t num) {
       num  /= 2;
     else 
       num = 3 * num + 1;
-    if (num > m) 
+    if (num > m)
       m = num;
   }
   return m;
